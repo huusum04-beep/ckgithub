@@ -30,12 +30,8 @@ if (isset($_POST['add'])) {
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>Hồ Sơ Nhân Viên</h1>
-            <p>Người quản lý: <strong>Nguyễn Thành Thuận</strong> - MSSV: <strong>DH52201535</strong></p>
-            <p>Lớp: <strong>D22_TH10</strong></p>
-            <p>Trường: <strong>Đại học Công nghệ Sài Gòn (STU)</strong></p>
-            <h2 class="title-main">Hệ thống Quản lý Nhân viên - Môn PTMNM</h2>
+        <div class="header">    
+            <h1>PM1_Cuối kì_Nguyễn Thành Thuận</h1>
         </div>
 
         <form method="POST" class="add-form">
