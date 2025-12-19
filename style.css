@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container {
+    background: white;
+    width: 800px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.header { text-align: center; color: #1a4a9e; }
+.title-main { color: #2d6cdf; margin: 20px 0; }
+.add-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1;
+}
+button, .btn-delete {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button[name="add"] { background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); color: white; font-weight: bold; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+.score-badge { color: #28a745; font-weight: bold; }
+.btn-edit { background: #4facfe; color: white; margin-right: 5px; }
+.btn-delete { background: #f8d7da; color: #721c24; font-size: 14px; }
